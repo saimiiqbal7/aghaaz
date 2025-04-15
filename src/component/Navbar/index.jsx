@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to="#">About Us</Link>
         <Link to="#">Register Now</Link>{" "}
       </div>
-      <Link>Contact Us</Link>
+      <Link to="/contact">Contact Us</Link>
     </nav>
   );
 };
