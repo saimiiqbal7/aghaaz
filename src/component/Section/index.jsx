@@ -15,13 +15,20 @@ const Section = () => {
         </h2>
       </div>
       <p className="lg:w-3/8 xl:text-3xl ">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem.
+        <span className="font-bold"> Aghaaz</span> is not just an education
+        consultancy. We are a complete support system for students who want to
+        study abroad. We help with admissions, guide you through the visa
+        process, and support you from the moment you start your journey until
+        you are settled in your new home. We work with universities, connect you
+        with real students in your destination city, and help you find safe,
+        affordable housing. We also guide you on daily life like commuting,
+        shopping, and staying safe. Most importantly, we help you become part of
+        a local support network so you always have someone to turn to.
+        <br />
+        <span className="font-bold">
+          We take care of everything so you only have to worry about your
+          studies.
+        </span>
       </p>
     </section>
   );
