@@ -9,7 +9,7 @@ const ContactForm = () => {
         form below and we'll get back to you as soon as possible.
       </p>
       <div className="w-full flex flex-col gap-3">
-        <div className="flex gap-5 w-full">
+        <div className="flex gap-5 w-full flex-col lg:flex-row">
           <input
             type="text"
             className="bg-[#ffffff8e] rounded-xl p-2 w-full"
@@ -21,7 +21,7 @@ const ContactForm = () => {
             placeholder="xyz@gmail.com"
           />
         </div>
-        <div className="flex gap-5 w-full">
+        <div className="flex gap-5 w-full  flex-col lg:flex-row">
           <input
             type="text"
             className="bg-[#ffffff8e] rounded-xl p-2 w-full"
@@ -39,7 +39,7 @@ const ContactForm = () => {
           className="bg-[#ffffff8e] rounded-xl p-2 w-full"
         ></textarea>
         <div className="iw-full flex justify-center items-center ">
-          <button className="bg-secondary-yellow w-1/3 py-3 px-5 rounded-2xl">
+          <button className="bg-secondary-yellow lg:w-1/3 w-full py-3 px-5 rounded-2xl">
             Send
           </button>
         </div>
